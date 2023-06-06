@@ -1,7 +1,10 @@
+using System.Collections;
+
 namespace TikTakToe
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -12,8 +15,8 @@ namespace TikTakToe
 
             if (richTextBox1.Text != "" && richTextBox2.Text != "")
             {
-                Form2 game = new Form2();
 
+                Form2 game = new Form2(richTextBox2.Text, richTextBox1.Text);
                 this.Hide();
                 game.ShowDialog();
             }
@@ -25,6 +28,11 @@ namespace TikTakToe
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -93,6 +93,7 @@
             richTextBox2.Size = new Size(164, 29);
             richTextBox2.TabIndex = 6;
             richTextBox2.Text = "";
+            richTextBox2.TextChanged += richTextBox2_TextChanged;
             // 
             // label4
             // 

@@ -44,84 +44,101 @@
             // 
             // button1
             // 
+            button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.Location = new Point(30, 308);
             button1.Name = "button1";
             button1.Size = new Size(102, 97);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
+            button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.Location = new Point(138, 308);
             button2.Name = "button2";
             button2.Size = new Size(102, 97);
             button2.TabIndex = 1;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
+            button3.BackgroundImageLayout = ImageLayout.Stretch;
             button3.Location = new Point(244, 308);
             button3.Name = "button3";
             button3.Size = new Size(100, 97);
             button3.TabIndex = 2;
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
+            button4.BackgroundImageLayout = ImageLayout.Stretch;
             button4.Location = new Point(30, 205);
             button4.Name = "button4";
             button4.Size = new Size(100, 97);
             button4.TabIndex = 3;
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
+            button5.BackgroundImageLayout = ImageLayout.Stretch;
             button5.Location = new Point(138, 205);
             button5.Name = "button5";
             button5.Size = new Size(100, 97);
             button5.TabIndex = 4;
             button5.Text = "button5";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
+            button6.BackgroundImageLayout = ImageLayout.Stretch;
             button6.Location = new Point(244, 205);
             button6.Name = "button6";
             button6.Size = new Size(100, 97);
             button6.TabIndex = 5;
             button6.Text = "button6";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
+            button7.BackgroundImageLayout = ImageLayout.Stretch;
             button7.Location = new Point(30, 102);
             button7.Name = "button7";
             button7.Size = new Size(102, 97);
             button7.TabIndex = 6;
-            button7.Text = "button7";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
+            button8.BackgroundImageLayout = ImageLayout.Stretch;
             button8.Location = new Point(138, 102);
             button8.Name = "button8";
             button8.Size = new Size(100, 97);
             button8.TabIndex = 7;
             button8.Text = "button8";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
+            button9.BackgroundImageLayout = ImageLayout.Stretch;
             button9.Location = new Point(244, 102);
             button9.Name = "button9";
             button9.Size = new Size(100, 97);
             button9.TabIndex = 8;
             button9.Text = "button9";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // label1
             // 
@@ -152,6 +169,7 @@
             label3.Size = new Size(57, 15);
             label3.TabIndex = 11;
             label3.Text = "nr of turn";
+            label3.Click += label3_Click;
             // 
             // Form2
             // 

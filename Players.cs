@@ -6,15 +6,21 @@ using System.Threading.Tasks;
 
 namespace TikTakToe
 {
-    internal class Players
+    public class Players
     {
-        string name;
-        int score;
+        public string name;
+        public int score;
 
-        Players(string name)
+        public Players() 
+        { 
+
+        }
+        public Players(string name)
         {
             this.name = name;
         }
+
+        
         
         
     }
