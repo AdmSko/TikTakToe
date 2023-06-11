@@ -9,7 +9,7 @@ namespace TikTakToe
     public class Players
     {
         public string name;
-        public int score;
+        public int score = 0;
 
         public Players() 
         { 
